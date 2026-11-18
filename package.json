@@ -1,8 +1,9 @@
 {
-  "name": "arena-multijugador",
+  "name": "endless-horde-online",
   "version": "1.0.0",
-  "description": "Servidor multijugador de acción en tiempo real (WebSockets)",
+  "description": "Endless Horde: servidor de presencia multijugador (WebSockets)",
   "main": "server.js",
   "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
   "dependencies": { "ws": "^8.18.0" }
 }
